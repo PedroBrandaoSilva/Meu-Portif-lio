@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jockey One", sans-serif;
+}
+
+
+body{
+    background: #110E21;
+    overflow-x: hidden;
+
+}
+
+
+header{
+    background: #110E21;
+    padding: 7px;
+    border-bottom: solid 4px #040404;
+    box-shadow: 0 3px 5px #000000;
+    
+    
+
+    & .header-main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50%;
+        color: #ABC9F5;
+        
+
+        & h1{
+            font-size: 50px;
+            letter-spacing: 3px;
+            text-decoration: underline 1px;
+            transition: color 0.8s ease-in-out;
+ 
+        }
+       
+
+        & ul{
+            display: flex;
+            gap: 80px;
+            list-style: none;
+            font-size: 20px;
+            cursor: pointer;
+
+
+          
+            & li a{
+                text-decoration: none;
+                color: #ABC9F5;
+                transition: color 0.2s ease-in-out;
+                position: relative;
+                left: 450px;
+                transition: left 0.5s ease-in-out;
+                
+            }   
+            & li .active{
+                position: relative;
+                left: 40px;
+                
+                
+                
+            }   
+
+            
+            & li a:hover{
+                color:#040404;
+            }
+
+            & #button-option{
+                width: 30px;
+                font-size: 40px;
+                background: none;
+                border: none;
+                position: absolute;
+                left: 98%;
+                bottom: 91.5%;
+                cursor: pointer;
+                color: #000000;
+                transition: transform 0.5s ease-in-out;
+                border: 1px solid #ABC9F5;
+                background: #ABC9F5;
+                
+
+
+            }
+            & .button-on{
+                transform:rotateY(180deg);
+
+
+            }
+            
+
+
+
+        }
+        
+    }
+    
+}
+
+
+
+
+.main{
+   
+    & section{
+
+
+        & .about-info{
+
+            background:#040404;
+            width: 80%;
+            height: 600px;
+            margin: 100px auto 0;
+            color: #ABC9F5;
+            letter-spacing: 2px;
+            padding: 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items:center;
+            border-radius: 10px;
+            
+            
+            
+            & .image{
+                width: 300px;
+                height: 400px;
+                margin-left: 30px;
+                border: solid #110E21 4px;
+                border-radius: 10px;
+            }
+
+            & h2{
+                max-width: 70%;
+                font-size: 30px;
+                
+            }
+           
+
+
+
+        }
+    }
+
+
+
+
+
+
+
+}
