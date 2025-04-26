@@ -25,6 +25,20 @@ let isActive = false
 
 
 
+window.addEventListener("scroll", function disable(){
+    const buttonUp = document.querySelector(".button-up")
+
+    buttonUp.classList.toggle("active", window.scrollY > 600)
+
+})
+
+
+function returnTop(){
+    window.scrollTo({top: 0})
+}
+
+
+
 
 
 
