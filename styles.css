@@ -50,6 +50,7 @@ body {
 
 /* HEADER */
 header {
+    width: 100%;
     background: #110E21;
     padding: 7px;
     border-bottom: solid 4px #040404;
@@ -234,6 +235,16 @@ header {
     border-radius: 10px;
     border: 2px solid #ABC9F5;
 }
+
+
+
+
+
+
+
+
+
+
 
 /* Animação */
 @keyframes float {
