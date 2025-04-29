@@ -1,4 +1,4 @@
-const menu = document.querySelectorAll('.normal')
+const menu = document.querySelectorAll('.list')
 const buttonMenu = document.querySelector('#button-option')
 
 
