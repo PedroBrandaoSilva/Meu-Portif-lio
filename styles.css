@@ -47,6 +47,10 @@ body {
     transform: translateX(0);
 }
 
+.hamburguer{
+    display: none;
+}
+
 header {
     width: 100%;
     background: #110E21;
@@ -310,6 +314,10 @@ footer {
         
         
     }
+    .hamburguer{
+        display: block;
+    }
+    
 
     .hamburguer .line{
         width: 4rem;
