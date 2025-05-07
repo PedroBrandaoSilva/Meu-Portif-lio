@@ -360,7 +360,7 @@ footer {
         right: -10px;
         top: 100%;
         gap: 1rem;
-        transform: translateX(100%);
+        transform: translateX(200px);
         transition: transform 0.7s ease-in-out;
     }
     .header-main ul.active {
